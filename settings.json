@@ -1,7 +1,7 @@
 {
     "loggerConfig": [
         {
-            "name": "genTest",
+            "name": "reservation-service",
             "streams": [
                 {
                     "type": "rotating-file",
