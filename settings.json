@@ -1,0 +1,427 @@
+{
+    "loggerConfig": [
+        {
+            "name": "genTest",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/gentest/gentest-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/gentest/gentest-error.log"
+                }
+            ]
+        },
+        {
+            "name": "decorService",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/decorService/decorService-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/decorService/decorService-error.log"
+                }
+            ]
+        },
+        {
+            "name": "keywordProcessor",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/keywordProcessor/keywordProcessor-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/keywordProcessor/keywordProcessor-error.log"
+                }
+            ]
+        },
+        {
+            "name": "solrImportProcessor",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/solrImportProcessor/solrImportProcessor-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/solrImportProcessor/solrImportProcessor-error.log"
+                }
+            ]
+        },
+        {
+            "name": "logService",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/logService/logService-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/logService/logService-error.log"
+                }
+            ]
+        },
+        {
+            "name": "itemChangePublisher",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/itemChangePublisher/itemChangePublisher-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/itemChangePublisher/itemChangePublisher-error.log"
+                }
+            ]
+        },
+        {
+            "name": "com.art.node.services.fcsService",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/fcsService/fcs-info.log",
+                    "period": "1d",
+                    "count": 7
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/fcsService/fcs-error.log"
+                }
+            ]
+        },
+        {
+            "name": "com.art.node.services.emailLookUp",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/emailLookUp/emailLookUp-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/emailLookUp/emailLookUp-error.log"
+                }
+            ]
+        },
+        {
+            "name": "com.art.node.services.clickStreamCollectorService",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "period": "2h",
+                    "count": 2,
+                    "path": "/var/log/nodejs/clickStreamCollectorService/clickStreamCollectorService-info.log"
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/clickStreamCollectorService/clickStreamCollectorService-error.log"
+                }
+            ]
+        },
+        {
+            "name": "com.art.node.services.deliveryEngine",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "period": "2h",
+                    "count": 2,
+                    "path": "/var/log/nodejs/deliveryEngine/deliveryEngine-info.log"
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/deliveryEngine/deliveryEngine-error.log"
+                }
+            ]
+        },
+        {
+            "name": "com.art.node.services.webgl",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/webgl/webgl-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/webgl/webgl-error.log"
+                }
+            ]
+        },
+        {
+            "name": "klio-server",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/klio-server/klio-server-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/klio-server/klio-server-error.log"
+                }
+            ]
+        },
+        {
+            "name": "klio-webapp",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/klio-webapp/klio-webapp-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/klio-webapp/klio-webapp-error.log"
+                }
+            ]
+        },
+        {
+            "name": "itemChangeSubscriber",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/itemChangeSubscriber/itemChangeSubscriber-info.log",
+                    "period": "2h",
+                    "count": 2
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/itemChangeSubscriber/itemChangeSubscriber-error.log"
+                }
+            ]
+        },
+         {
+            "name": "com.art.node.services.webcnt",
+            "streams": [
+                {
+                    "level": "info",
+                    "path": "/var/log/nodejs/webcnt/com.art.node.services.webcnt-info.log"
+                },
+                {
+                    "level": "error",
+                    "path": "/var/log/nodejs/webcnt/com.art.node.services.webcnt-error.log"
+                }
+            ]
+        },
+        {
+            "name": "com.art.node.services.pbt",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/webcnt/com.art.node.services.pbt-info.log",
+                    "period": "8h",
+                    "count": 2
+                },
+                {
+                    "type": "rotating-file",
+                    "level": "error",
+                    "path": "/var/log/nodejs/webcnt/com.art.node.services.pbt-error.log",
+                    "period": "7d",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "com.art.node.services.pricingrules",
+            "streams": [
+                {
+                    "type": "rotating-file",
+                    "level": "info",
+                    "path": "/var/log/nodejs/pricingrules/com.art.node.services.pricingrules-info.log",
+                    "period": "8h",
+                    "count": 2
+                },
+                {
+                    "type": "rotating-file",
+                    "level": "error",
+                    "path": "/var/log/nodejs/pricingrules/com.art.node.services.pricingrules-error.log",
+                    "period": "7d",
+                    "count": 2
+                }
+            ]
+        },
+	{
+		"name": "com.art.node.services.gallerypage",
+		"streams": [
+			{
+			"level": "info",
+			"path": "/var/log/nodejs/gallerypage/com.art.node.services.gallerypage-info.log"
+			},
+			{
+			"level": "error",
+			"path": "/var/log/nodejs/gallerypage/com.art.node.services.gallerypage-error.log"
+			}
+		]
+	}
+    ],
+    "isCollapsedResultForSolr": true,
+    "mltOptions": {
+        "on": true,
+        "fl": "artists,categoryNames,tags",
+        "count": 20,
+        "mintf": 1,
+        "mindf": 5,
+        "minwl": 3,
+        "maxwl": 15,
+        "qf": "id^1000"
+    },
+    "offlineClusteringConfiguration": [
+        {
+            "clusterIndex": 1,
+            "cluster": "theme",
+            "rows": 1000,
+            "title": "title",
+            "snippet": "categoryNames",
+            "sort": "siteRank+asc",
+            "parameters": "fl=id,siteRank,score&carrot.produceSummary=true&tr=c2json.xsl&LingoClusteringAlgorithm.desiredClusterCountBase=10&DocumentAssigner.minClusterSize=10",
+            "maxClusterCount": 10,
+            "fieldNameForOfflineCluster": "themeClusters"
+        },
+        {
+            "clusterIndex": 3,
+            "cluster": "artStyle",
+            "rows": 1000,
+            "title": "artStyles",
+            "snippet": "",
+            "sort": "siteRank+asc",
+            "parameters": "fl=id,siteRank,score&carrot.produceSummary=true&tr=c2json.xsl&LingoClusteringAlgorithm.desiredClusterCountBase=5&DocumentAssigner.minClusterSize=10",
+            "maxClusterCount": 5,
+            "fieldNameForOfflineCluster": "artstyleClusters"
+        },
+        {
+            "clusterIndex": 4,
+            "cluster": "room",
+            "rows": 1000,
+            "title": "rooms",
+            "snippet": "",
+            "sort": "siteRank+asc",
+            "parameters": "fl=id,siteRank,score&carrot.produceSummary=true&tr=c2json.xsl&LingoClusteringAlgorithm.desiredClusterCountBase=5&DocumentAssigner.minClusterSize=10",
+            "maxClusterCount": 5,
+            "fieldNameForOfflineCluster": "roomClusters"
+        },
+        {
+            "clusterIndex": 2,
+            "cluster": "artist",
+            "rows": 1000,
+            "title": "artists",
+            "snippet": "",
+            "sort": "siteRank+asc",
+            "parameters": "fl=id,siteRank,score&carrot.produceSummary=true&tr=c2json.xsl&LingoClusteringAlgorithm.desiredClusterCountBase=5&DocumentAssigner.minClusterSize=10",
+            "maxClusterCount": 5,
+            "fieldNameForOfflineCluster": "artistClusters"
+        }
+    ],
+    "liveClusteringConfiguration": [
+        {
+            "clusterIndex": 1,
+            "cluster": "theme",
+            "rows": 1000,
+            "title": "title",
+            "snippet": "categoryNames",
+            "sort": "siteRank+asc",
+            "parameters": "fl=id,siteRank,score&carrot.produceSummary=true&tr=c2json.xsl&LingoClusteringAlgorithm.desiredClusterCountBase=10&DocumentAssigner.minClusterSize=10",
+            "maxClusterCount": 10,
+            "fieldNameForOfflineCluster": "themeClusters"
+        },
+        {
+            "clusterIndex": 3,
+            "cluster": "artStyle",
+            "rows": 1000,
+            "title": "artStyles",
+            "snippet": "",
+            "sort": "siteRank+asc",
+            "parameters": "fl=id,siteRank,score&carrot.produceSummary=true&tr=c2json.xsl&LingoClusteringAlgorithm.desiredClusterCountBase=5&DocumentAssigner.minClusterSize=10",
+            "maxClusterCount": 5,
+            "fieldNameForOfflineCluster": "artstyleClusters"
+        },
+        {
+            "clusterIndex": 4,
+            "cluster": "room",
+            "rows": 1000,
+            "title": "rooms",
+            "snippet": "",
+            "sort": "siteRank+asc",
+            "parameters": "fl=id,siteRank,score&carrot.produceSummary=true&tr=c2json.xsl&LingoClusteringAlgorithm.desiredClusterCountBase=5&DocumentAssigner.minClusterSize=10",
+            "maxClusterCount": 5,
+            "fieldNameForOfflineCluster": "roomClusters"
+        },
+        {
+            "clusterIndex": 2,
+            "cluster": "artist",
+            "rows": 1000,
+            "title": "artists",
+            "snippet": "",
+            "sort": "siteRank+asc",
+            "parameters": "fl=id,siteRank,score&carrot.produceSummary=true&tr=c2json.xsl&LingoClusteringAlgorithm.desiredClusterCountBase=5&DocumentAssigner.minClusterSize=10",
+            "maxClusterCount": 5,
+            "fieldNameForOfflineCluster": "artistClusters"
+        }
+    ],
+    "maxImagesPerSearchServiceCall": 40,
+    "cache1ImageHandler": "http://cache1.artprintimages.com",
+    "staticImageHandler": "http://cache2.artprintimages.com/",
+    "genericImageHandler": "http://imgc.artprintimages.com/",
+    "dynamicImageHandler": "http://imagecache5d.art.com/",
+    "keywordUpdateConfig": {
+        "pushNewKeywordsToQueue": true,
+        "pushKeywordsForStatsUpdate": false
+    },
+    "itemChangePublisherConfig": {
+        "publisherRunFrequencyInMinutes": 240
+    },
+    "workerProcessConfig": {
+        "com.art.node.services.decorService": 4,
+        "com.art.node.services.emailLookUp": 4,
+        "com.art.node.services.webcnt"  :4,
+        "com.art.node.services.pricingengine":4,
+        "default_workerProcess": 4
+    },
+    "ports": {
+        "com.art.node.services.fcs": 3003,
+        "com.art.node.services.decorService": 8081,
+        "com.art.node.process.solrImportProcessor": 8082,
+        "com.art.node.services.logService": 8083,
+        "com.art.node.services.emailLookUp": 8084,
+        "com.art.node.services.clickStreamCollectorService": 8081,
+        "com.art.node.services.webgl": 8081,
+        "com.art.node.services.webcnt" :3000,
+        "com.art.node.services.pricingengine":3000,
+	"com.art.node.services.gallerypage":3000,
+        "default_Port": 9000
+    }
+}
